@@ -14,7 +14,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-		이것은 {ryan} 노답이다_2q32131231232132132
+		이것은 {ryan} 노답이다_2q321312312321321324y234237462378462378
       </div>
     );
   }
