@@ -1,0 +1,32 @@
+/* 전역으로 사용할 css import */
+@import 'utils';
+
+/*해당 위치에 사용할 Css*/
+.box {
+  display: inline-block;
+  width: $size;
+  height: $size;
+  border: 1px solid black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &.blue {
+    background: blue;
+  }
+
+  &:hover {
+    background: yellow;
+  }
+
+  &:active {
+    background: red;
+  }
+
+  .box-inside {
+    background: black;
+    width: 50px;
+    height: 50px;
+  }
+}
