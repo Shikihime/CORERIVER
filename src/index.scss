@@ -1,0 +1,7 @@
+/* 전체초기화 */
+*{ border:0px; padding:0px; margin:0px; }
+/* 스크롤 삭제 */
+::-webkit-scrollbar{display:none;}
+/* 이것은 무엇인고? */
+@mixin place-at-center(){ top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
